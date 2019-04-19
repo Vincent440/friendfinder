@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "a \"Friend Finder \" Web app, using express and node.js to deploy a backend server with heroku hosting\"",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent440/friendfinder.git"
+  },
+  "author": "Vincent S Shury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vincent440/friendfinder/issues"
+  },
+  "homepage": "https://github.com/Vincent440/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
