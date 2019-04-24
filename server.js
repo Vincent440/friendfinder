@@ -1,13 +1,14 @@
+/* eslint-disable no-console */
 /* eslint-disable no-undef */
 
 //NPM DEPENDENCIES
-var express = require("express");
+const express = require("express");
 
 //creating an "express" server
-var app = express();
+const app = express();
 
 // Sets an initial port.
-var PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -20,6 +21,4 @@ require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 //"start" server
-app.listen(PORT, function() {
-  console.log("App listening on PORT: localhost:" + PORT);
-});
+app.listen(PORT,() => console.log(`Server listening on: http://localhost:${PORT}`));
