@@ -15,21 +15,20 @@ module.exports = app => {
         let bestMatch = {
             name: "",//to show name
             photo: "",//to show new photo
-            scoreDiff: 100//to subtract dif from 
+            scoreDifferance: 100//to subtract dif from 
         };
 
+        let totalDifference = 0;
+
+        
         let newFriend = req.body;// handle for incoming data of new friend to add to array
         let newScore = newFriend.scores;//score array to compare each of the friendsarray scores against
 
 
 
-        console.log(newFriend);
-        console.log(newScore);
-        console.log(req.body);
-        console.log(bestMatch);
-        friends.push(req.body);
 
-        res.json(bestMatch);//after comparing the user to the other "Friends" Closest match will be returned
+        friends.push(req.body);
+        res.json(friends[0]);//after comparing the user to the other "Friends" Closest match will be returned
         //This route will also be used to handle the compatibility logic.
 
     });

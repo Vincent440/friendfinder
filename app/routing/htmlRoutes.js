@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 //NPM DEPENDENCIES
-var path = require("path")
+const path = require("path")
 
 module.exports = app => {
 
