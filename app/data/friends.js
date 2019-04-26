@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 //Array to store the data in with demo data to match users with
 var friendArray = [
   {
@@ -18,6 +17,12 @@ var friendArray = [
     photo:
       "https://www.biography.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTE4MDAzNDEwMDU4NTc3NDIy/hillary-clinton-9251306-2-402.jpg",
     scores: [3, 2, 4, 3, 2, 4, 3, 2, 4, 3]
+  },
+  {
+    name: "Donald Trump",
+    photo:
+      "https://s.marketwatch.com/public/resources/images/MW-FL363_17trum_ZH_20170427230450.jpg",
+    scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   }
 ];
 

@@ -229,23 +229,25 @@
     <script type="text/javascript">
 
       $("#submit").on("click", event => {
-        
         event.preventDefault();
+
         $(".alert").hide(300);
+
         let formData = $(".inputs").val();
-        let name = $("#name")
-          .val()
-          .trim();
+        let name = $("#name").val().trim();
         let photo = $("#photo").val();
         let scores = [];
+
         $("select").each((i, question) => {
           let scoreIndex = Number(question.value);
           scores.push(scoreIndex);
         });
+
         checkURL = (url) => {
           return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
         }
-         formIsValid= ()=> {
+
+         formIsValid = () => {
           isValid = true;
           if (name === "") {
             isValid = false;
@@ -261,6 +263,7 @@
         };
 
         if (formIsValid()) {
+
           $(".alert").hide()
           let newFriend = {//if the form has more then empty strings for the name , and a valid url, and does not contain any 0 score values send data
             name: name,
