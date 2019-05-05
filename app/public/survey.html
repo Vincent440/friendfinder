@@ -3,33 +3,20 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <!--FONTAWESOME CDN LINK-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <title>FriendFinder Survey</title>
   </head>
   <body class="bg-dark">
-    <div class="container bg-white" >
+    <div class="container bg-white mx-auto" >
       <div class="row text-center">
         <div class="col-md-12">
-          <h1 class="display-3">FriendFinder Survey</h1>
+          <h1 class="display-3">FriendFinder Survey <i class="fas fa-poll-h"></i></h1>
         </div>
       </div>
-
       <hr />
       <div class="row">
 
@@ -38,23 +25,15 @@
           <form role="form">
             <div class="form-group">
               <label for="name">First And Last Name <span class="text-danger">(Required)</span></label>
-              <input type="text"
-                class="form-control"
-                id="name"
-                placeholder="Full Name"
-                required
-              />
+              <input type="text" class="form-control" id="name" placeholder="Full Name" required />
             </div>
-
             <div class="form-group">
               <label for="photo">Link to a Photo/Image <span class="text-danger">(Required)</span></label>
               <input type="text"class="form-control" id="photo" placeholder="Enter image Web url here" required />
             </div>
-
             <div class="alert alert-danger alert-dismissible fade show text-center"style="display:none" role="alert">
               Must be a valid Image url! Valid image types are: jpeg | jpg | gif | png
             </div>
-
             <div class="form-group">
               <h5>QUESTION 1</h5>
               <label for="quest1">It is often difficult for you to relate to other people’s feelings.</label>
@@ -194,6 +173,7 @@
           </form>
         </div>
       </div>
+      <!--Results modal to display match-->
       <div class="modal fade in" id="resultsModal" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -217,17 +197,10 @@
         <hr /> <a href="/api/friends" class="">API Friends List</a>&nbsp; | &nbsp;<a href="https://github.com/Vincent440/friendfinder">GitHub Repository Page</a>
       </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.0.js"
-      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript">
-
       $("#submit").on("click", event => {
         event.preventDefault();
 
