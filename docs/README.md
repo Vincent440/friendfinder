@@ -1,7 +1,7 @@
 # FriendFinder
 This full-stack site will take in results from users' surveys, then compare their answers with those from other users.
 
-View the page here to try out the survey for yourself! [FriendFinder](https://stormy-castle-89962.herokuapp.com/)
+View the page here to try out the survey for yourself! [FriendFinder](https://vince-friendfinder.herokuapp.com/)
 
 
 #### By Vince Shury
