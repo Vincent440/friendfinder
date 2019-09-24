@@ -1,5 +1,5 @@
 //Array to store the data in with demo data to match users with
-var friendArray = [
+const friendArray = [
   {
     name: "Barack Obama",
     photo:
