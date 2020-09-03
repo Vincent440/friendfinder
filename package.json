@@ -22,5 +22,9 @@
   "homepage": "https://github.com/Vincent440/friendfinder#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "^12",
+    "yarn": "^1.22"
   }
 }
