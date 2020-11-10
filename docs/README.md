@@ -3,10 +3,34 @@ This full-stack site will take in results from users' surveys, then compare thei
 
 View the page here to try out the survey for yourself! [FriendFinder](https://vince-friendfinder.herokuapp.com/)
 
+## Getting started
 
-#### By Vince Shury
-Thanks again for viewing my repository.
+1. Clone the Repo
 
-If you like this application please check out my [Github Profile](https://github.com/Vincent440) to see my other repositories.
+    ```shell
+    git clone <project url>
+    ```
 
-Don't forget to view my [Github Portfolio page](https://vincent440.github.io/) well you are there Thanks!
+1. Install project dependencies
+
+    Using `npm`
+    ```shell
+    npm install
+    ```
+    Using `yarn`
+    ```shell
+    yarn
+    ```
+
+1. Run the project and begin developing
+    ```shell
+    npm start
+    ```
+
+
+## Author
+
+**Vincent Shury**, <small>Full-stack web developer</small>
+- [vincentshury.com](https://www.vincentshury.com) - Portfolio
+- [Github Profile](https://github.com/Vincent440) - GitHub Profile
+- [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - LinkedIn Profile
