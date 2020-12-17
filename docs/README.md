@@ -26,11 +26,11 @@ View the page here to try out the survey for yourself! [FriendFinder](https://vi
     ```shell
     npm start
     ```
-
-
+ 
 ## Author
 
 **Vincent Shury**, <small>Full-stack web developer</small>
-- [vincentshury.com](https://www.vincentshury.com) - Portfolio
-- [Github Profile](https://github.com/Vincent440) - GitHub Profile
-- [LinkedIn](https://www.linkedin.com/in/vincent-shury/) - LinkedIn Profile
+- [vshury.com](https://vshury.com/) Portfolio
+- [GitHub](https://github.com/Vincent440) Profile
+- [![Linkedin Badge](https://img.shields.io/badge/-Vincent_Shury-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vincent-shury/)](https://www.linkedin.com/in/VincentShury/)
+- [@VincentShury](https://twitter.com/VincentShury) Twitter
